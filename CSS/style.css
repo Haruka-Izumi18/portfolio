@@ -18,25 +18,18 @@ body {
     text-transform: uppercase;
 }
 
-main {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: 2px solid #232b2e; 
-    margin: 2em;
-}
-
 .container{
     display: flex;
-
-    width: 80%;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 2px solid #232b2e; 
+    margin-bottom: 1.5rem;
 }
 
 .main__profile {
     margin-left: 5em;
-    padding: 0;
+    flex:1
 }
 
 h1 {
@@ -51,14 +44,14 @@ p {
     line-height: 2rem;
 }
 
-figure{
-    margin: 2em;
+.image-femme {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
-
-figure, img{
-    padding-left: 9em;
-    width: 500px;
-
+.image-femme, img{
+    max-width: 80%;
+    height: auto;
 }
 
 ul{
